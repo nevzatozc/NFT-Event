@@ -2,6 +2,7 @@ const Web3 = require("web3");
 const web3 = new Web3(
   "wss://eth-mainnet.g.alchemy.com/v2/ZxixEMu5GLz0q9vWOTkEeieHHq6M4ckV"
 );
+//
 //const contractAbi = require('./puma_abi.json'); //  Super Puma (SPRPUMA) contract ABI
 const contractAddress = "0x283c0BbA69EbD4643cfCe761B34b0206E75b2091"; // Super Puma (SPRPUMA) contract address
 const eventSignature = "Transfer(address,address,uint256)";
